@@ -40,9 +40,10 @@
     // color: var(--gray-900);
     color: white;
     font-weight: 500;
-    line-height: 100%;
+    // line-height: 100%;
     letter-spacing: -0.125rem;
     margin: 0;
+    padding: 0;
     font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
@@ -55,13 +56,13 @@
 
   main {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    // padding: 1rem;
     box-sizing: inherit;
-    position: relative;
+    // position: relative;
     // background: var(--gray-800);
   }
 
