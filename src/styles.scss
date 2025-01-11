@@ -1,7 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
+:root {
+  --gray-800: oklch(20.55% 0.005 800); // oklch(0.28 0 0)
+  
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--gray-800);
 }
