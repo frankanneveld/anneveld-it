@@ -3,12 +3,15 @@
   
 }
 
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
   background: var(--gray-800);
-
-  -webkit-overflow-scrolling: touch;
 }
